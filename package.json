@@ -1,0 +1,17 @@
+{
+  "name": "dvfoto",
+  "version": "1.0.0",
+  "description": "DVFoto",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["photography"],
+  "author": "Deividas Vilimaitis",
+  "license": "ISC",
+  "devDependencies": {
+    "live": "^0.1.25-beta.0",
+    "server": "^1.0.37"
+  }
+}
