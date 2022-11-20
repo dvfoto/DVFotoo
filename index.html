@@ -1,12 +1,193 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="lt">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Noto+Sans+JP:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="./content/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./content/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./content/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <script src="https://kit.fontawesome.com/3c96d59626.js" crossorigin="anonymous"></script>
+    <title>DVFoto</title>
 </head>
-<body>
-    
+
+<body class="main-class">
+    <main class="container">
+
+        <header class="header">
+            <img class="logo" src="./content/logo.png" alt="logo">
+            <div>
+                <nav>
+                    <a href="#portfolio">galerija</a>
+                    <a href="#">atsiliepimai</a>
+                    <a href="#">planavimas</a>
+                    <a href="#">susisiekti</a>
+                    <a href="#">apie</a>
+                    <div class="animation start-home"></div>
+                </nav>
+            </div>
+
+        </header>
+
+        <div class="first-block">
+            <h2>Ieškote fotografo?</h2>
+            <h1>Aš esu Deividas Vilimaitis</h1>
+            <p>Vestuvių fotografas. Šioje srityje turiu 6 metų patirtį ir teko įamžinti daugiau nei 100 nuostabių porų
+                jų svarbiausią dieną. </p>
+            <div class="buttons">
+                <!-- gal nereiks -->
+                <button class="btn-1"> Susisiekti </button>
+                <button class="btn-2"> Portfolio </button>
+            </div>
+            <a href="#portfolio">
+                <div class="pele">
+                    <div class="mouse">
+                        <div class="whell"></div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div id="portfolio" class="container7">
+            <h3>Mano darbų galerija</h3>
+            <!-- <img src="./Content/image/kringelis.png" alt="kringelis" class="offer-img"> -->
+            <p>Kviečiu peržiūrėti mano darbų galeriją, čia rasite įvarių akimirkų iš vestuvių švenčių, asmeninių
+                fotosesijų bei įvairių projektų </p>
+            <!-- <div class="margin-left">
+                <button class="btn">All</button>
+                <button class="btn">Branding</button>
+                <button class="btn">Designing</button>
+                <button class="btn">Photography</button>
+                <button class="btn">Development</button>
+            </div> -->
+
+            <div class="galery1">
+                <a href="./vestufiu_fotosesija.html">
+                    <div class="tablet-galery">
+                        <div class="galery-img">
+                            <!-- <img class="fill" src="./content/portfolio/fotosesijos.jpg" alt=""> -->
+                        </div>
+                        <div class="galery-svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-camera fea icon-sm image-icon">
+                                <path
+                                    d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z">
+                                </path>
+                                <circle cx="12" cy="13" r="4"></circle>
+                            </svg>
+                        </div>
+                        <div class="galery-text">
+                            <h6>Vestuvių fotosesijos</h6>
+                            <!-- <p>Meilė</p> -->
+                        </div>
+                    </div>
+                </a>
+                <div class="tablet-galery">
+                    <div class="galery-img2">
+                        <!-- <img src="./Content/image/portfolio/6.jpg" alt=""> -->
+                    </div>
+                    <div class="galery-svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-camera fea icon-sm image-icon">
+                            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z">
+                            </path>
+                            <circle cx="12" cy="13" r="4"></circle>
+                        </svg>
+                    </div>
+                    <div class="galery-text">
+                        <h6>Ceremonija</h6>
+                    </div>
+                </div>
+                <div class="tablet-galery">
+                    <div class="galery-img3">
+                        <!-- <img src="./Content/image/portfolio/2.jpg" alt=""> -->
+                    </div>
+                    <div class="galery-svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-camera fea icon-sm image-icon">
+                            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z">
+                            </path>
+                            <circle cx="12" cy="13" r="4"></circle>
+                        </svg>
+                    </div>
+                    <div class="galery-text">
+                        <h6>Pasiruošimas - JI</h6>
+                    </div>
+                </div>
+                <div class="tablet-galery">
+                    <div class="galery-img4">
+                        <!-- <img src="./Content/image/portfolio/3.jpg" alt=""> -->
+                    </div>
+                    <div class="galery-svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-camera fea icon-sm image-icon">
+                            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z">
+                            </path>
+                            <circle cx="12" cy="13" r="4"></circle>
+                        </svg>
+                    </div>
+                    <div class="galery-text">
+                        <h6>Pasiruošimas - JIS</h6>
+                    </div>
+                </div>
+                <div class="tablet-galery">
+                    <div class="galery-img5">
+                        <!-- <img src="./Content/image/portfolio/4.jpg" alt=""> -->
+                    </div>
+                    <div class="galery-svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-camera fea icon-sm image-icon">
+                            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z">
+                            </path>
+                            <circle cx="12" cy="13" r="4"></circle>
+                        </svg>
+                    </div>
+                    <div class="galery-text">
+                        <h6>Asmeninės</h6>
+                    </div>
+                </div>
+                <div class="tablet-galery">
+                    <div class="galery-img6">
+                        <!-- <img src="./Content/image/portfolio/5.jpg" alt=""> -->
+                    </div>
+                    <div class="galery-svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-camera fea icon-sm image-icon">
+                            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z">
+                            </path>
+                            <circle cx="12" cy="13" r="4"></circle>
+                        </svg>
+                    </div>
+                    <div class="galery-text">
+                        <h6>Projektai</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+
 </body>
+
 </html>

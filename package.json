@@ -7,11 +7,14 @@
     "dev": "live-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["photography"],
+  "keywords": [
+    "photography"
+  ],
   "author": "Deividas Vilimaitis",
   "license": "ISC",
   "devDependencies": {
     "live": "^0.1.25-beta.0",
+    "live-server": "^1.2.2",
     "server": "^1.0.37"
   }
 }

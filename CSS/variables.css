@@ -1,0 +1,18 @@
+:root {
+
+    --primary-color: #e52b2b;
+    --text-color: rgb(117, 117, 117);
+    --text-color2: rgb(0, 0, 0);
+    --text-color-mobile: rgb(177, 177, 177);
+    --ux-design: 90%;
+    --border-box: rgb(227, 226, 226);
+    --shadow-color: #a24250;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+span {
+    color: #ffffff;
+}
