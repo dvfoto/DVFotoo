@@ -11,7 +11,7 @@ nav {
     position: relative;
     width: 510px;
     height: 50px;
-    background-color: #34495e;
+    background-color: var(--background_color);
     border-radius: 8px;
     font-size: 0;
 }
@@ -26,7 +26,7 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-    color: white;
+    color: var(--primary-color);
     cursor: pointer;
 }
 
