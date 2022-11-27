@@ -63,7 +63,7 @@
 
 .galery-text:hover::before {
 
-    background-color: rgba(108, 116, 126, 0.6);
+    background-color: rgba(254, 78, 0, 0.15);
 
 }
 
@@ -172,6 +172,7 @@
     /* display: none; */
     position: absolute;
     color: transparent;
+    background-color: transparent;
     top: 50%;
     right: 43%;
     padding: 15px;
@@ -197,7 +198,7 @@
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1550px) {
     .galery1 {
 
         display: grid;
