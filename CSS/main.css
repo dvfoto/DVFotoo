@@ -29,9 +29,11 @@ body * {
 
 
 .container {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+
     /* background-image: url(../content/logo.png);
 
     background-repeat: no-repeat;
@@ -41,9 +43,22 @@ body * {
     /* overflow-x: hidden; */
 }
 
-*/ .main-class {
+.main-class {
     text-decoration: none;
     position: relative;
+}
+
+.youtube-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.youtube {
+    width: 50%;
+    aspect-ratio: 16/9;
 }
 
 .logo {
@@ -131,21 +146,32 @@ nav {
 }
 
 .main-class>.sidebar {
-    width: 120px;
-    height: 100%;
-    position: fixed;
 
-    top: 0;
-    left: 0;
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
-    background-color: var(--background_color_meniu);
-    /* meniu background spalva */
-    box-shadow: 0 8px 32px rgb(2, 4, 24);
-    border-right: 2px solid rgba(255, 255, 255, .09);
-    transition: .4s ease-in-out;
-    z-index: 5;
+    display: none;
+
+
 }
+
+@media (min-width: 900px) {
+    .main-class>.sidebar {
+        display: block;
+        width: 120px;
+        height: 100%;
+        position: fixed;
+
+        top: 0;
+        left: 0;
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px);
+        background-color: var(--background_color_meniu);
+        /* meniu background spalva */
+        box-shadow: 0 8px 32px rgb(2, 4, 24);
+        border-right: 2px solid rgba(255, 255, 255, .09);
+        transition: .4s ease-in-out;
+        z-index: 5;
+    }
+}
+
 
 .sidebar.open {
     width: 360px;
