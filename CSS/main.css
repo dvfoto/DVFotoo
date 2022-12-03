@@ -12,6 +12,7 @@
 @import '../content/ikons/css/boxicons.min.css';
 @import '../content/ikons/css/transformations.css';
 @import '../CSS/ofers.css';
+@import '../CSS/social_ikons.css';
 
 
 
@@ -71,8 +72,8 @@ p {
     margin-left: 20px;
     font-family: 'CabinetGrotesk-Regular';
     color: var(--text-color);
-    max-width: 800px;
-    text-align: center;
+    max-width: 600px;
+    text-align: start;
 }
 
 h1 {

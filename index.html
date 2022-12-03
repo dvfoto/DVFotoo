@@ -27,6 +27,8 @@
 <body class="main-class" id="begin">
 
 
+
+
     <!-- -----------------------------------sidebar-------------------------------------- -->
     <div class="sidebar">
 
@@ -92,10 +94,12 @@
             </div>
 
             <ul>
-                <li class="nav-item">
-                    <i class='bx bx-send'></i>
-                    <span>Mane taip pat rasite</span>
-                </li>
+                <a href="#social">
+                    <li class="nav-item">
+                        <i class='bx bx-send'></i>
+                        <span>Mane taip pat rasite</span>
+                    </li>
+                </a>
                 <li class="nav-item">
                     <i class="bx bxs-message-dots"></i>
                     <span>Susisiekti</span>
@@ -106,17 +110,21 @@
 
     </div>
     <!-- -------------------------------------------------------------------------- -->
+
     <main class="container">
 
         <div class="first-block">
-            <h2>Ieškote fotografo?</h2>
-            <h1>Aš esu Deividas Vilimaitis</h1>
-            <p>Vestuvių fotografas. Šioje srityje turiu 6 metų patirtį ir teko įamžinti daugiau nei 100 nuostabių porų
-                jų svarbiausią dieną. </p>
-            <div class="buttons">
-                <!-- gal nereiks -->
-                <button class="btn-1"> Susisiekti </button>
-                <button class="btn-2"> Portfolio </button>
+            <div class="first-bloc1">
+                <h2>Ieškote fotografo?</h2>
+                <h1>Aš esu Deividas Vilimaitis</h1>
+                <p>Vestuvių fotografas. Šioje srityje turiu 6 metų patirtį ir teko įamžinti daugiau nei 100 nuostabių
+                    porų
+                    jų svarbiausią dieną. </p>
+                <div class="buttons">
+                    <!-- gal nereiks -->
+                    <button class="btn-1"> Susisiekti </button>
+                    <button class="btn-2"> Portfolio </button>
+                </div>
             </div>
             <a href="#portfolio">
                 <div class="pele">
@@ -125,26 +133,18 @@
                     </div>
                 </div>
             </a>
+
         </div>
 
         <div id="portfolio" class="container7">
             <h3>Mano darbų galerija</h3>
-            <!-- <img src="./Content/image/kringelis.png" alt="kringelis" class="offer-img"> -->
             <p>Kviečiu peržiūrėti mano darbų galeriją, čia rasite įvarių akimirkų iš vestuvių švenčių, asmeninių
                 fotosesijų bei įvairių projektų </p>
-            <!-- <div class="margin-left">
-                <button class="btn">All</button>
-                <button class="btn">Branding</button>
-                <button class="btn">Designing</button>
-                <button class="btn">Photography</button>
-                <button class="btn">Development</button>
-            </div> -->
 
             <div class="galery1">
                 <a href="./vestufiu_fotosesija.html">
                     <div class="tablet-galery">
                         <div class="galery-img">
-                            <!-- <img class="fill" src="./content/portfolio/fotosesijos.jpg" alt=""> -->
                         </div>
                         <div class="galery-svg">
                             <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 24 24"
@@ -162,23 +162,26 @@
                         </div>
                     </div>
                 </a>
-                <div class="tablet-galery">
-                    <div class="galery-img2">
-                        <!-- <img src="./Content/image/portfolio/6.jpg" alt=""> -->
+                <a href="./bandymai.html">
+                    <div class="tablet-galery">
+                        <div class="galery-img2">
+                            <!-- <img src="./Content/image/portfolio/6.jpg" alt=""> -->
+                        </div>
+                        <div class="galery-svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-camera fea icon-sm image-icon">
+                                <path
+                                    d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z">
+                                </path>
+                                <circle cx="12" cy="13" r="4"></circle>
+                            </svg>
+                        </div>
+                        <div class="galery-text">
+                            <h6>Ceremonija</h6>
+                        </div>
                     </div>
-                    <div class="galery-svg">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 24 24" fill="none"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                            class="feather feather-camera fea icon-sm image-icon">
-                            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z">
-                            </path>
-                            <circle cx="12" cy="13" r="4"></circle>
-                        </svg>
-                    </div>
-                    <div class="galery-text">
-                        <h6>Ceremonija</h6>
-                    </div>
-                </div>
+                </a>
                 <div class="tablet-galery">
                     <div class="galery-img3">
                         <!-- <img src="./Content/image/portfolio/2.jpg" alt=""> -->
@@ -407,6 +410,29 @@
 
             <!-- JS File -->
             <script src="./script.js"></script>
+        </div>
+    </div>
+
+    <div class="social_ikons" id="social">
+        <div class="conteudo">
+            <div class="carrosel">
+                <a href="#begin">
+                    <div class="caixa__card cc__1"><a href="#begin"><img src="./content/logo2.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="caixa__card cc__2"><a href="https://www.facebook.com/DVFotoLT"><i
+                                class='i_karusel bx bxl-facebook-square'></i></a>
+                    </div>
+                    <div class="caixa__card cc__3"><a href="https://www.instagram.com/dvfotolt/"><i
+                                class='i_karusel bx bxl-instagram'></i></a></div>
+                    <div class="caixa__card cc__4"><a href="https://www.youtube.com/channel/UCmxIQMwMCmo8YTxdKSGyhUQ"><i
+                                class='i_karusel bx bxl-youtube'></i></a></div>
+                    <div class="caixa__card cc__5"><a href="https://www.tiktok.com/@deividasvili"><i
+                                class='i_karusel bx bxl-tiktok'></i></a></div>
+                    <div class="caixa__card cc__6"><a href="#begin"><i class='i_karusel bx bxl-gmail'></i></a></div>
+                    <div class="caixa__card cc__7"><a href="#begin"><i class='i_karusel bx bx-phone'></i></a></div>
+                    <div class="caixa__card cc__8"><a href="#begin"><i class='i_karusel bx bx-map'></i></a></div>
+            </div>
         </div>
     </div>
 </body>
