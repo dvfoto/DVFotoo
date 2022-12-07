@@ -26,8 +26,70 @@
 
 <body class="main-class" id="begin">
 
+    <a class="button" href="#begin">
+        <i class='bx bxs-chevrons-up'></i>
+    </a>
+
+    <div class="mobile_meniu">
+
+        <div class="pionter_down">
+
+            <i class='pionter_down_i bx bx-chevron-down'></i>
+        </div>
+
+        <ul class="mobile_list">
+            <a href="#begin">
+                <li class="mobile_icons">
+                    <i class='bx bx-home-alt-2'></i>
+                    <span class="span_mobile">Pradžia</span>
+                </li>
+            </a>
+            <a href="">
+                <li class="mobile_icons">
+                    <i class='bx bx-camera'></i>
+                    <span class="span_mobile">Galerija</span>
+                </li>
+            </a>
+            <a href="">
+                <li class="mobile_icons">
+                    <i class='bx bx-heart-square'></i>
+                    <span class="span_mobile">Atsiliepimai</span>
+                </li>
+            </a>
+            <a href="">
+                <li class="mobile_icons">
+                    <i class='bx bx-task'></i>
+                    <span class="span_mobile">Planavimas</span>
+                </li>
+            </a>
+            <a href="">
+                <li class="mobile_icons">
+                    <i class='bx bx-location-plus'></i>
+                    <span class="span_mobile">Fotosesijų lokacijos</span>
+                </li>
+            </a>
+            <a href="">
+                <li class="mobile_icons">
+                    <i class='bx bx-money-withdraw'></i>
+                    <span class="span_mobile">Kainos</span>
+                </li>
+            </a>
+            <a href="">
+                <li class="mobile_icons">
+                    <i class='bx bx-send'></i>
+                    <span class="span_mobile">Mane taip pat rasite</span>
+                </li>
+            </a>
+            <a href="">
+                <li class="mobile_icons">
+                    <i class="bx bxs-message-dots"></i>
+                    <span class="span_mobile">Susisiekti</span>
+                </li>
+            </a>
+        </ul>
 
 
+    </div>
 
     <!-- -----------------------------------sidebar-------------------------------------- -->
     <div class="sidebar">
@@ -100,10 +162,12 @@
                         <span>Mane taip pat rasite</span>
                     </li>
                 </a>
-                <li class="nav-item">
-                    <i class="bx bxs-message-dots"></i>
-                    <span>Susisiekti</span>
-                </li>
+                <a href="#susisiekti">
+                    <li class="nav-item">
+                        <i class="bx bxs-message-dots"></i>
+                        <span>Susisiekti</span>
+                    </li>
+                </a>
             </ul>
 
         </nav>
@@ -126,6 +190,10 @@
                     <button class="btn-2"> Portfolio </button>
                 </div>
             </div>
+            <div class="first-block2">
+                <img class="img-firs-block" src="./content/DSC05452.jpg" alt="">
+            </div>
+
             <a href="#portfolio">
                 <div class="pele">
                     <div class="mouse">
@@ -414,20 +482,21 @@
     </div>
 
     <div class="social_ikons" id="social">
+        <h3>Mane galite rasti</h3>
         <div class="conteudo">
             <div class="carrosel">
                 <a href="#begin">
                     <div class="caixa__card cc__1"><a href="#begin"><img src="./content/logo2.png" alt="logo">
                         </a>
                     </div>
-                    <div class="caixa__card cc__2"><a href="https://www.facebook.com/DVFotoLT"><i
+                    <div class="caixa__card cc__2"><a href="https://www.facebook.com/DVFotoLT" target="_blank"><i
                                 class='i_karusel bx bxl-facebook-square'></i></a>
                     </div>
-                    <div class="caixa__card cc__3"><a href="https://www.instagram.com/dvfotolt/"><i
+                    <div class="caixa__card cc__3"><a href="https://www.instagram.com/dvfotolt/" target="_blank"><i
                                 class='i_karusel bx bxl-instagram'></i></a></div>
-                    <div class="caixa__card cc__4"><a href="https://www.youtube.com/channel/UCmxIQMwMCmo8YTxdKSGyhUQ"><i
-                                class='i_karusel bx bxl-youtube'></i></a></div>
-                    <div class="caixa__card cc__5"><a href="https://www.tiktok.com/@deividasvili"><i
+                    <div class="caixa__card cc__4"><a href="https://www.youtube.com/channel/UCmxIQMwMCmo8YTxdKSGyhUQ"
+                            target="_blank"><i class='i_karusel bx bxl-youtube'></i></a></div>
+                    <div class="caixa__card cc__5"><a href="https://www.tiktok.com/@deividasvili" target="_blank"><i
                                 class='i_karusel bx bxl-tiktok'></i></a></div>
                     <div class="caixa__card cc__6"><a href="#begin"><i class='i_karusel bx bxl-gmail'></i></a></div>
                     <div class="caixa__card cc__7"><a href="#begin"><i class='i_karusel bx bx-phone'></i></a></div>
@@ -435,6 +504,31 @@
             </div>
         </div>
     </div>
+
+
+    <div id="susisiekti" class="input_container">
+        <h3>Susisiekti</h3>
+        <div class="input">
+            <div class="img_contact">
+                <i class='bx bx-envelope'></i>
+            </div>
+            <form class="input_form">
+                <label class="input_label" for="Vardas" required>Jūsų vardas</label>
+                <input class="input_input" type="text">
+                <label class="input_label" for="email">El.paštas</label>
+                <input class="input_input" type="email" placeholder="El. paštas" required>
+                <label class="input_label" for="Vardas">Tel. Nr.</label>
+                <input class="input_input" type="tel" placeholder="Tel nr.">
+                <label class="input_label" for="Vardas">Šventės data</label>
+                <input class="input_input" type="date">
+                <label class="input_label" for="Vardas">Žinutė</label>
+                <textarea class="input_input textarea" name="mesagge" cols="30" rows="10" required></textarea>
+                <input class="input_btn" type="submit">
+            </form>
+        </div>
+    </div>
 </body>
+<script src="./backtotop.js"></script>
+
 
 </html>
