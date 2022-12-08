@@ -9,7 +9,7 @@ $message = $_POST['message']
 
 $mailheader = "From:".$name."<".$email.">\r\n"
 
-$recipient = "vilimaitisdeividas@gmail.com";
+$recipient = "dvfoto@info.lt";
 
 mail($recipient, $date, $tel, $message, $mailheader)
  or die("Error!")
