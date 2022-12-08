@@ -1,4 +1,5 @@
 .mobile_meniu {
+    display: none;
     position: fixed;
     top: 0;
     width: 100%;
@@ -26,7 +27,7 @@
             rgba(162, 0, 33, 0.65) 50%);
     color: rgb(4, 3, 3);
     z-index: -10;
-    pointer-events: ;
+    pointer-events: pointer;
 }
 
 .pionter_down_i {

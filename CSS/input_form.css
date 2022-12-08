@@ -34,7 +34,8 @@
 }
 
 .img_contact i:hover {
-    -text-h
+    transform: rotatey(180deg);
+    transition: ease 12s;
 }
 
 .input_label {
