@@ -27,17 +27,31 @@ navItems.forEach(navItem => {
 });
 
 const openerMobile = document.querySelector('.mobile_meniu .pionter_down');
-const meniuMobile = document.querySelector('.mobile_meniu');
-const navItemsMobile = document.querySelectorAll('.pionter_down');
+const navItemsMobile = document.querySelectorAll('.mobile_meniu .mobile_icons');
+const sidebarMobile = document.querySelector('.mobile_meniu');
 
 openerMobile.addEventListener('click', () => {
 
-    if (meniuMobile.className === 'mobile_meniu')
-        openerMobile.classList.add("openMobile");
-    else (
-        openerMobile.classList.remove("openMobile")
-    )
+    if (sidebarMobile.className === 'mobile_meniu')
+        sidebarMobile.classList.add('open');
+    else
+        sidebarMobile.classList.remove('open');
 
 });
 
+navItemsMobile.forEach(navItem => {
+
+    navItem.addEventListener('click', () => {
+
+        navItemsMobile.forEach(navItem => {
+            navItem.classList.remove('active');
+            sidebarMobile.classList.remove('open');
+        });
+
+        navItem.classList.add('active');
+        sidebarMobile.classList.remove('open');
+
+    });
+
+});
 

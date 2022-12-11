@@ -5,7 +5,6 @@
 @import './portfolio.css';
 @import '../content/Gallery/css/demo.css';
 @import '../content/Gallery/css/style.css';
-@import '../content/Gallery/js/gallery.js';
 @import '../content/CabinetGrotesk_Complete/Fonts/WEB/css/cabinet-grotesk.css';
 @import '../content/ikons/css/animations.css';
 @import '../content/ikons/css/boxicons.css';
@@ -16,6 +15,7 @@
 @import '../CSS/sidebar.css';
 @import '../CSS/mobile_meniu.css';
 @import '../CSS/input_form.css';
+@import '../CSS/planing.css';
 
 
 
@@ -107,11 +107,35 @@ h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
+h4 {
+    color: var(--background_color_meniu);
+    font-size: 30px;
+    padding: 50px 0 30px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
 h6 {
     text-decoration: none;
     font-size: 20px;
     padding: 20px 0 20px 20px;
-    color: var(--text-color2);
+    color: var(--primary-color);
     /* margin: 0; */
     font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+    background-color: var(--background_color_meniu);
+    color: white;
+    padding: 10px 25px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    border: solid 3px transparent;
+}
+
+.btn:hover {
+
+    border: solid var(--nav_hover_color) 3px;
+    box-shadow: 0px 0px 10px var(--nav_hover_color);
 }

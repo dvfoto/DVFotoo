@@ -1,0 +1,222 @@
+.container6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+
+}
+
+.absolutas {
+    position: relative;
+}
+
+.time-line {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.svg-border {
+    padding: 5px;
+    border: 2px solid var(--text-color);
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+
+}
+
+.time-line::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    top: 3%;
+    left: 17px;
+    background: var(--text-color);
+}
+
+.time-colum {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 2px solid var(--border-box);
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    position: relative;
+    top: 0;
+    transition: all ease 0.2s;
+
+
+}
+
+.time-colum:hover {
+    top: -7px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    box-shadow:
+        5px 5px 10px rgb(60, 59, 59, 20%),
+        -5px -5px 10px rgb(60, 59, 59, 20%);
+}
+
+.time-colum:hover h6 {
+    color: var(--primary-color);
+
+}
+
+.date {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 180px;
+    text-align: center;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    box-shadow:
+        5px 5px 10px rgb(60, 59, 59, 20%),
+        -5px -5px 10px rgb(60, 59, 59, 20%);
+}
+
+.date::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 2px solid var(--text-color);
+    border-radius: 50%;
+    background-color: white;
+    left: 11px;
+    margin-top: 15px;
+}
+
+.span-date {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 20px;
+    color: var(--text-color);
+
+
+}
+
+.company {
+    margin-left: 20px;
+}
+
+.time-colum p {
+    margin: 0 20px 20px;
+}
+
+@media (min-width: 850px) {
+
+    .grid {
+        display: grid;
+        justify-items: center;
+        /* align-items: center; */
+        grid-template-columns: 400px 400px;
+        grid-gap: 60px;
+        grid-row-gap: 100px;
+        grid-template-areas:
+            "pirma antra"
+            "trecia ketvirta"
+            "penkta sesta";
+    }
+
+    .grid-item-1 {
+        grid-area: pirma;
+        justify-self: end;
+    }
+
+    .grid-item-2 {
+        grid-area: antra;
+        justify-self: start;
+    }
+
+    .grid-item-3 {
+        grid-area: ketvirta;
+        justify-self: start;
+
+    }
+
+    .grid-item-4 {
+        grid-area: trecia;
+        justify-self: end;
+        align-items: flex-end;
+    }
+
+    .grid-item-5 {
+        grid-area: penkta;
+        justify-self: end;
+    }
+
+    .grid-item-6 {
+        grid-area: sesta;
+        justify-self: start;
+    }
+
+    .date {
+        /* justify-self: end; */
+        height: 50px;
+        margin: 0;
+    }
+
+    .time-colum {
+        margin-left: 0;
+    }
+
+    .absolutas {
+
+        margin-top: 50px;
+    }
+
+    .time-line::before {
+        content: '';
+        position: absolute;
+        width: 2px;
+        height: 100%;
+        top: -5px;
+        left: 50%;
+        background: var(--text-color);
+    }
+
+    .date::before {
+        content: '';
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border: 2px solid var(--text-color);
+        border-radius: 50%;
+        background-color: white;
+        left: 49.3%;
+        margin-top: 15px;
+    }
+
+
+    .svg-center {
+        position: absolute;
+        left: 48%;
+        top: -40px
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .grid {
+        grid-template-columns: 500px 500px;
+    }
+
+    .date::before {
+        left: 49.4%;
+    }
+
+    .svg-center {
+        left: 48.3%;
+
+
+    }
+
+}
