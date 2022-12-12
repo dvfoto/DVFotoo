@@ -1,8 +1,14 @@
 @import './variables.css';
-@import './header.css';
 @import './buttons.css';
 @import './first-block.css';
 @import './portfolio.css';
+@import './ofers.css';
+@import './social_ikons.css';
+@import './sidebar.css';
+@import './mobile_meniu.css';
+@import './input_form.css';
+@import './planing.css';
+@import './gallery.css';
 @import '../content/Gallery/css/demo.css';
 @import '../content/Gallery/css/style.css';
 @import '../content/CabinetGrotesk_Complete/Fonts/WEB/css/cabinet-grotesk.css';
@@ -10,12 +16,7 @@
 @import '../content/ikons/css/boxicons.css';
 @import '../content/ikons/css/boxicons.min.css';
 @import '../content/ikons/css/transformations.css';
-@import '../CSS/ofers.css';
-@import '../CSS/social_ikons.css';
-@import '../CSS/sidebar.css';
-@import '../CSS/mobile_meniu.css';
-@import '../CSS/input_form.css';
-@import '../CSS/planing.css';
+
 
 
 

@@ -1,6 +1,7 @@
 :root {
 
     --primary-color: rgb(156, 13, 56);
+    --primary-color2: rgb(156, 13, 56, 0.2);
     --text-color: rgb(117, 117, 117);
     --text-color2: rgb(255, 255, 255);
     --text-color-mobile: rgb(177, 177, 177);
@@ -10,6 +11,7 @@
     --background_color: transparent;
     --background_color_meniu: #292F36;
     --nav_hover_color: rgb(254, 78, 0);
+    --nav_hover_color_opasity: rgb(254, 78, 0, 0.1);
     --nav_background_color: rgb(167, 134, 130, 0.1);
 
 
