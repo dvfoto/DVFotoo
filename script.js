@@ -18,9 +18,11 @@ navItems.forEach(navItem => {
 
         navItems.forEach(navItem => {
             navItem.classList.remove('active');
+            sidebar.classList.remove('open');
         });
 
         navItem.classList.add('active');
+        sidebar.classList.remove('open');
 
     });
 

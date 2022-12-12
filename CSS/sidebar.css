@@ -10,11 +10,12 @@
 
 body {
     height: 100vh;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'CabinetGrotesk-Black';
 }
 
 span {
     background-color: transparent;
+    font-family: 'CabinetGrotesk-Regular';
 }
 
 ul {

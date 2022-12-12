@@ -94,6 +94,11 @@
     font-size: 25px;
 }
 
+.mobile_i:hover {
+
+    box-shadow: 0px 0px 10px var(--nav_hover_color);
+}
+
 .span_mobile {
     color: var(--text-color2);
     font-size: 20px;

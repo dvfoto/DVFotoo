@@ -69,12 +69,12 @@
 
 .soc_ikon {
     display: grid;
-    width: 40%;
+    width: 80%;
     grid-template-columns: 50px 50px;
     /* gap: 40px; */
     grid-template-rows: auto auto;
-    row-gap: 20px;
-    justify-content: space-around;
+    gap: 80px;
+    justify-content: center;
     align-items: center;
     margin: 50px 0 50px 0;
 }
@@ -85,7 +85,7 @@
         width: 40%;
         grid-template-columns: 50px 50px 50px 50px;
         /* gap: 40px; */
-        grid-template-rows: auto auto auto auto;
+        grid-template-rows: auto;
         /* row-gap: 20px; */
         justify-content: space-around;
         align-items: center;
