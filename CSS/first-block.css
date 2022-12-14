@@ -11,6 +11,13 @@
 
 }
 
+.first-block p {
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
 .first-bloc1 {
     display: flex;
     width: 100%;

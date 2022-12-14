@@ -122,14 +122,16 @@
 }
 
 .skilsscolum .company {
-    padding: 20px;
+    padding: 0 20px 10px 0;
+    text-align: justify;
     height: auto;
 
 }
 
 .skilsscolum p {
 
-    padding-bottom: 20px;
+    padding: 0 20px 20px 0;
+    text-align: justify;
 }
 
 
