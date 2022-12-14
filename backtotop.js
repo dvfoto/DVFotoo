@@ -4,7 +4,6 @@ var mouse = document.querySelector(".mouse");
 window.addEventListener("scroll", () => {
 	if (window.pageYOffset > 300) {
 		toTop.classList.add("show");
-		window.location.reload();
 		mouse.classList.add("invisible");
 	} else {
 		toTop.classList.remove("show");
@@ -20,7 +19,4 @@ window.addEventListener("blur", () => {
 window.addEventListener("focus", () => {
 	document.title = docTitle;
 });
-
-window.location.reload();
-
 
