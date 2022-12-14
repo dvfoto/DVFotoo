@@ -427,3 +427,12 @@ function getLoopedIndex(index) {
 function mapRange(value, fromIn, toIn, fromOut, toOut) {
     return fromOut + (toOut - fromOut) * (value - fromIn) / (toIn - fromIn);
 }
+
+let docTitle = document.title;
+window.addEventListener("blur", () => {
+    document.title = "Sugrįžk :(";
+});
+window.addEventListener("focus", () => {
+    document.title = docTitle;
+});
+
