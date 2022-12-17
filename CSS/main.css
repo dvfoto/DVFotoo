@@ -157,19 +157,63 @@ h6 {
 }
 
 
+
+
 #loading {
     display: none;
-    width: 100vh;
-    height: 100vh;
-    background-color: #ddd;
-    border-radius: 5px;
-    overflow: hidden;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 4px solid transparent;
+    position: relative;
+    padding: 1px;
 }
 
-#loading div {
+#loading:before {
+    content: '';
+    border: 1px solid #fff;
+    border-radius: 10px;
     position: absolute;
-    width: 100vh;
-    height: 100vh;
-    background-color: #4caf50;
-    z-index: 2000;
+    top: -4px;
+    right: -4px;
+    bottom: -4px;
+    left: -4px;
+}
+
+#loading .loaderBar {
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    right: 100%;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    width: 0;
+    animation: borealisBar 2s linear infinite;
+}
+
+@keyframes borealisBar {
+    0% {
+        left: 0%;
+        right: 100%;
+        width: 0%;
+    }
+
+    10% {
+        left: 0%;
+        right: 75%;
+        width: 25%;
+    }
+
+    90% {
+        right: 0%;
+        left: 75%;
+        width: 25%;
+    }
+
+    100% {
+        left: 100%;
+        right: 0%;
+        width: 0%;
+    }
 }
