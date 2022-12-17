@@ -37,7 +37,8 @@ body * {
 
 .container {
     width: 100%;
-    display: flex;
+    display: none;
+
     flex-direction: column;
     align-items: center;
 
@@ -157,16 +158,32 @@ h6 {
 }
 
 
+#loding_div {
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    /* position: relative; */
+    background-color: var(--background_color_meniu);
+    z-index: 30002;
+    padding: 50%;
+}
 
 #loading {
-    display: none;
-    width: 500px;
+    display: block;
+    top: 48vh;
+    width: 50%;
+    background-color: var(--background_color_meniu);
     margin: 0 auto;
     border-radius: 10px;
     border: 4px solid transparent;
-    position: relative;
-    padding: 1px;
+    position: absolute;
+    padding: 3px;
+    z-index: 3000;
 }
 
 #loading:before {
@@ -178,18 +195,20 @@ h6 {
     right: -4px;
     bottom: -4px;
     left: -4px;
+    z-index: 3001;
 }
 
-#loading .loaderBar {
+#loading #loaderBar {
     position: absolute;
     border-radius: 10px;
     top: 0;
     right: 100%;
     bottom: 0;
     left: 0;
-    background: #fff;
+    background: rgb(177, 0, 0);
     width: 0;
     animation: borealisBar 2s linear infinite;
+    z-index: 3002;
 }
 
 @keyframes borealisBar {

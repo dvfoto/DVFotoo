@@ -12,16 +12,19 @@ window.addEventListener("scroll", () => {
 
 
 // Get the loading div
-var loading = document.getElementById('loading');
+var loading = document.getElementById('loding_div');
+var container = document.getElementById('container');
 
 // Show the loading div
 function showLoading() {
     loading.style.display = 'block';
+    container.style.display = 'none';
 }
 
 // Hide the loading div
 function hideLoading() {
     loading.style.display = 'none';
+    container.style.display = 'flex';
 }
 
 // Listen for the content to start loading
