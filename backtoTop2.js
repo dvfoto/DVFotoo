@@ -17,8 +17,10 @@ var container = document.getElementById('container');
 
 // Show the loading div
 function showLoading() {
-    loading.style.display = 'block';
+    loading.style.display = 'flex';
     container.style.display = 'none';
+    console.log(loading);
+    console.log(container);
 }
 
 // Hide the loading div
