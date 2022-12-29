@@ -7,16 +7,116 @@
     height: auto;
     margin: 150px 0 0px 0px;
 
+}
 
+
+/* -----------------------------buble efect--------------------- */
+
+
+.container .first-block #buble {
+    color: var(--primary-color);
+    font-size: 50px;
+    line-height: 50px;
+    cursor: default;
+    top: 0;
+    text-transform: uppercase;
+}
+
+.container .first-block .hovered {
+    color: var(--nav_hover_color);
+    font-family: var(--font-family-Extrabold);
+    font-weight: 900;
+    font-size: 55px;
+    transition: all 0.35s;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    -ms-transition: all 0.35s;
+    -o-transition: all 0.35s;
+    top: -5px;
+}
+
+.container .first-block .hovered-adjacent {
+    color: var(--nav_hover_color2);
+    font-family: var(--font-family-medium);
+    font-size: 52px;
+    transition: all 0.35s;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    -ms-transition: all 0.35s;
+    -o-transition: all 0.35s;
+    top: -2px;
+}
+
+
+
+.container .first-block #buble small {
+
+    font-family: var(--font-family-bold);
 
 }
+
+.container .first-block #buble small:hover {}
+
+
+.container .first-block .hovered-adjacent2 {
+    color: var(--nav_hover_color3);
+    font-weight: bold;
+    font-family: var(--font-family-Light);
+    transition: all 0.35s;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    -ms-transition: all 0.35s;
+    -o-transition: all 0.35s;
+}
+
+/* -----------------------------buble efect--------------------- */
 
 .first-block p {
-
     margin: 0px;
     padding: 0px;
+    font-size: 20px;
+
 
 }
+
+
+
+.first-block p:hover {
+    font-weight: bold;
+    background: conic-gradient(rgb(254, 78, 0), rgb(156, 13, 56), #292F36, rgb(254, 78, 0));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 2000px 2000px;
+    animation: rgb 5s infinite linear;
+    -webkit-animation: rgb 5s infinite linear;
+}
+
+
+@keyframes rgb {
+
+    0% {
+        background-position: 0 0;
+    }
+
+    25% {
+        background-position: 0 100%;
+    }
+
+    50% {
+        background-position: 100% 100%;
+    }
+
+    75% {
+        background-position: 100% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+
+}
+
 
 .first-bloc1 {
     display: flex;

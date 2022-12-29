@@ -16,6 +16,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    z-index: 100;
 }
 
 .input_form {
@@ -51,6 +52,7 @@
     padding: 10px;
     font-size: 20px;
     color: var(--background_color_meniu);
+
 }
 
 .input_input {
@@ -86,6 +88,7 @@
     justify-content: center;
     align-items: center;
     margin: 50px 0 50px 0;
+    z-index: 100;
 }
 
 @media (min-width: 900px) {

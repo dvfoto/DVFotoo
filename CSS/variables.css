@@ -10,9 +10,19 @@
     --shadow-color: #a24250;
     --background_color: transparent;
     --background_color_meniu: #292F36;
+    --background_color_meniu2: #414e5e;
     --nav_hover_color: rgb(254, 78, 0);
+    --nav_hover_color2: rgb(254, 114, 54);
+    --nav_hover_color3: rgb(255, 152, 108);
     --nav_hover_color_opasity: rgb(254, 78, 0, 0.1);
     --nav_background_color: rgb(167, 134, 130, 0.1);
+    --font-family: 'CabinetGrotesk-Regular';
+    --font-family-light: 'CabinetGrotesk-Light';
+    --font-family-Extralight: 'CabinetGrotesk-Extralight';
+    --font-family-bold: 'CabinetGrotesk-bold';
+    --font-family-Extrabold: 'CabinetGrotesk-Extrabold';
+    --font-family-medium: 'CabinetGrotesk-Medium';
+
 
 
 }
