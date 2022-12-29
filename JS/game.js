@@ -135,6 +135,12 @@ window.onload = function () {
         }
     };
 
+
+    //slider to increase or decrease number of snowflakes
+    document.querySelector("#myRange").oninput = function () {
+        drawFlakes(this.value);
+    };
+
     //draw flakes on canvases
     let drawFlakes = function (numFlakes = 5000) {
         for (let [index, elem] of classCanvases.entries()) {
@@ -170,12 +176,9 @@ window.onload = function () {
     };
 
     makeCanvases();
-    drawFlakes(5000);
+    drawFlakes(100);
     canvasLoop1();
 
-    //slider to increase or decrease number of snowflakes
-    document.querySelector("#myRange").oninput = function () {
-        drawFlakes(this.value);
-    };
+
 
 };

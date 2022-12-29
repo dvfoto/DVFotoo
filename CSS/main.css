@@ -320,3 +320,11 @@ h6 {
     top: 10vh;
     z-index: 10000;
 }
+
+@media (max-width: 900px) {
+
+    #frame {
+        display: none;
+    }
+
+}
